@@ -271,7 +271,7 @@ h3 {
 h4 {
 	font-size: 1.1em;
 	line-height: 1.5em;
-	display: none;
+	margin-bottom: .5rem;
 }
 
 h5 {
@@ -2673,6 +2673,12 @@ input[type="button"]:disabled,
 	cursor: default;
 }
 
+/* UTIL */
+.hide {
+	display: none;
+}
+
+
 /* Work Item */
 
 .work-item {
@@ -2944,7 +2950,7 @@ input[type="button"]:disabled,
 	bottom: 0;
 	cursor: default;
 	font-size: 1em;
-	height: 6em;
+	height: 8em;
 	left: 0;
 	right: 0;
 	line-height: 1.5em;
@@ -2953,6 +2959,10 @@ input[type="button"]:disabled,
 	width: 100%;
 	z-index: 1;
 	padding: .5rem 1rem;
+}
+
+.link {
+	margin-top: .5rem;
 }
 
 .poptrox-popup .nav-next,
